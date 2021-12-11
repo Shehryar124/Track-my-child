@@ -1,0 +1,42 @@
+.body {
+  justify-content: space-between;
+  display: flex;
+  flex: 0.8;
+  background-image: url("https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/pass/GoogleMapTA.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.body__index {
+  background: linear-gradient(rgb(91, 87, 115), rgb(0, 0, 75));
+  padding: 15px 20px;
+  border-radius: 20px;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+}
+
+.body__index > h2 {
+  color: #1baa4d;
+  margin-left: 65px;
+}
+.body__option {
+  cursor: pointer;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 99px;
+  background-color: #1baa4d;
+  height: 20%;
+}
+
+.body__option:hover {
+  background-color: #040404;
+}
+.body__option > h4 {
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
