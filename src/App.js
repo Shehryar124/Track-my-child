@@ -1,13 +1,13 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import './App.css';
-import InitialSignup from './Signup';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Body from './Body';
 import Security from './Security';
 import Home from './Home';
 import Login from './Login';
+import Signup from './Signup';
 function App() {
   return (
     <div className = 'app'>
